@@ -1,0 +1,45 @@
+models:
+  XGBoost:
+    type: XGBClassifier
+    params:
+      n_jobs: -1
+
+  XGBoost RandomForest:
+    type: XGBRFClassifier
+    params:
+      n_jobs: -1
+
+  CatBoost:
+    type: CatBoostClassifier
+    params: {}
+
+  Logistic Regression:
+    type: LogisticRegression
+    params: {}
+
+  Decision Tree:
+    type: DecisionTreeClassifier
+    params:
+      criterion: entropy
+      min_samples_leaf: 2
+
+  Random Forest:
+    type: RandomForestClassifier
+    params:
+      criterion: entropy
+      min_samples_leaf: 2
+      n_jobs: -1
+
+  AdaBoost:
+    type: AdaBoostClassifier
+    params: {}
+
+  # v1 models do not have the neural network below - this is added to highlight a model versioning approach!
+  MLPClassifier:
+    type: MLPClassifier
+    params:
+      activation: logistic
+      learning_rate: adaptive
+      
+  
+
