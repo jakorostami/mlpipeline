@@ -1,6 +1,6 @@
 # Machine learning pipeline deployment with FastAPI and Docker
 
-## How to run
+## How to run - Docker version
 
 First clone this repo
 ```
@@ -40,7 +40,18 @@ or alternatively,
 http://localhost:8000
 ```
 
+## How to run - Python local version
+
+
 To run the API locally without Docker you just need to run below
+
+1. Navigate to the code's root folder and make sure you activate your Python environment
+
+```
+cd mlpipeline
+```
+
+2. Run uvicorn
 
 ```
 uvicorn inference.api:app --reload
