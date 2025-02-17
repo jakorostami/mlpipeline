@@ -2,7 +2,12 @@
 
 ## How to run
 
-1. Open your terminal and navigate to the code's root folder
+First clone this repo
+```
+git clone https://github.com/jakorostami/mlpipeline.git
+```
+
+1. Now to run the code - open your terminal and navigate to the code's root folder
 
 ```
 cd mlpipeline
