@@ -40,6 +40,12 @@ or alternatively,
 http://localhost:8000
 ```
 
+To run the API locally without Docker you just need to run below
+
+```
+uvicorn inference.api:app --reload
+```
+
 ## API endpoints
 
 Go to below to test out the endpoints or just glimpse the docs
